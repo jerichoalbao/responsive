@@ -1,0 +1,36 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_normalize.scss",
+		"../scss/base/_base.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_components.scss",
+		"../scss/modules/_sections.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/layouts/_header.scss",
+		"../scss/layouts/_footer.scss",
+		"../scss/layouts/_nav.scss"
+	],
+	"sourcesContent": [
+		"/* \r\n\tResposive Test Project\r\n\tAuthor: Jericho Albao\r\n\tVersion: 0.0.1\r\n\t\r\n*/\r\n\r\n/* BASE */\r\n\r\n@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_normalize.scss';\r\n@import 'base/_base.scss';\r\n\r\n/* MODULES */\r\n\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_components.scss';\r\n@import 'modules/_sections.scss';\r\n@import 'modules/_typography.scss';\r\n\r\n/* LAYOUTS */\r\n\r\n@import 'layouts/_header.scss';\r\n@import 'layouts/_footer.scss';\r\n@import 'layouts/_nav.scss';",
+		"/* Font Colors */\n\n$base-font-size: 14px;\n$base-font-family: \"Lato\", sans-serif;\n$base-font-color: #666666;\n\n/* Background Colors */\n\n$primary-color: #1bafdf;\n$secondary-color: #c1e9f4;\n$light-color: #fafafa;\n$box-color: #f7fbfc;",
+		"",
+		"h1, h2, h3, h4, h5 {\r\n\tmargin-top:0px;\r\n}\r\n\r\n.page-header{\r\n    margin-top: 30px;\r\n}",
+		"body {\r\n\tfont-family:$base-font-family;\r\n\tfont-size:$base-font-size;\r\n\tline-height:1.7em;\r\n\tcolor:$base-font-color;\r\n}\r\n\r\na {\r\n\tcolor:#353d3f;\r\n}\r\n\r\nul, li {\r\n\tlist-style:none;\r\n}",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		".navbar {\n  margin: auto;\n  min-height: 60px;\n  background: #fefefe;\n  border-color: $light-color;\n\n  a {\n    color: #9c9c9c;\n    font-size: 10px;\n    letter-spacing: 2px;\n    padding-top: 20px;\n    padding-bottom: 20px;\n    text-transform: uppercase;\n  }\n\n  li a {\n    padding-top: 20px;\n    padding-bottom: 20px;\n  }\n  li a:hover {\n    color:$primary-color !important;\n  }\n}"
+	],
+	"mappings": "AAAA;;;;;EAKE;AAEF,UAAU;ACPV,iBAAiB;AAMjB,uBAAuB;;AENvB,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,CAAC;EAClB,UAAU,EAAC,GAAI;CACf;;;AAED,AAAA,YAAY,CAAA;EACR,UAAU,EAAE,IAAK;CACpB;;;ACND,AAAA,IAAI,CAAC;EACJ,WAAW,EHEO,MAAM,EAAE,UAAU;EGDpC,SAAS,EHAO,IAAI;EGCpB,WAAW,EAAC,KAAM;EAClB,KAAK,EHAY,OAAO;CGCxB;;;AAED,AAAA,CAAC,CAAC;EACD,KAAK,EAAC,OAAQ;CACd;;;AAED,AAAA,EAAE,EAAE,AAAA,EAAE,CAAC;EACN,UAAU,EAAC,IAAK;CAChB;;AJCD,aAAa;AAQb,aAAa;;AYtBb,AAAA,OAAO,CAAC;EACN,MAAM,EAAE,IAAK;EACb,UAAU,EAAE,IAAK;EACjB,UAAU,EAAE,OAAQ;EACpB,YAAY,EXMA,OAAO;CWYpB;;;AAtBD,AAME,OANK,CAML,CAAC,CAAC;EACA,KAAK,EAAE,OAAQ;EACf,SAAS,EAAE,IAAK;EAChB,cAAc,EAAE,GAAI;EACpB,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,IAAK;EACrB,cAAc,EAAE,SAAU;CAC3B;;;AAbH,AAeK,OAfE,CAeL,EAAE,CAAC,CAAC,CAAC;EACH,WAAW,EAAE,IAAK;EAClB,cAAc,EAAE,IAAK;CACtB;;;AAlBH,AAmBM,OAnBC,CAmBL,EAAE,CAAC,CAAC,AAAA,MAAM,CAAC;EACT,KAAK,EXZO,OAAO,CWYE,UAAU;CAChC",
+	"names": []
+}

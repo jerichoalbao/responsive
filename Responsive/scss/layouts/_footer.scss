@@ -1,0 +1,33 @@
+footer {
+  background: #3a3a3a;
+  padding: 50px 0px;
+
+  ul {
+    padding-left: 0px;
+  }
+
+  .row {
+    width: 90%;
+    margin: auto;
+  }
+
+  h3 {
+    color: #ffffff;
+    font-weight: 200;
+  }
+
+  img {
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  @include tablet-portrait-and-below {
+    .mobx {
+      display: none;
+    }
+  }
+}

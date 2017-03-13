@@ -1,0 +1,86 @@
+/* Form */
+
+.replyfield {
+  position: relative;
+
+  textarea {
+    border: medium none;
+    font-size: 12px;
+    height: 50px;
+    padding: 12px 164px;
+    text-align: right;
+    width: 100%;
+    resize: none;
+  }
+  .btn {
+    bottom: 11px;
+    position: absolute;
+    right: 62px;
+  }
+}
+
+.formdv {
+  padding: 50px 0px;
+  color: $primary-color;
+
+  .formbox2 {
+    float: right;
+    width: 300px;
+  }
+
+  .formbox3 {
+    float: left;
+    width: 300px;
+
+    .btn {
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+
+  .form-left {
+    display: inline-block;
+  }
+
+  .form-right {
+    display: inline-block;
+  }
+
+  @include tablet-portrait-and-below {
+    .form-left, .form-right {
+      text-align: center;
+      width: 100%;
+      padding: 0 30px;
+    }
+
+    .formbox2, .formbox3 {
+      float: none;
+      margin: auto;
+      width: 100%;
+    }
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

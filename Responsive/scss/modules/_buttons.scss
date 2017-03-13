@@ -1,0 +1,24 @@
+.btn {
+  background: $primary-color;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  border: medium none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+
+@include tablet-portrait-and-below {
+  .navbar-toggle {
+    float: left;
+  }
+}

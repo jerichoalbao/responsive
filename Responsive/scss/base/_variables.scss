@@ -1,0 +1,20 @@
+/* Font Colors */
+
+$base-font-size: 14px;
+$base-font-family: "Lato", sans-serif;
+$base-font-color: #666666;
+
+/* Background Colors */
+
+$primary-color: #1bafdf;
+$secondary-color: #c1e9f4;
+$light-color: #fafafa;
+$box-color: #f7fbfc;
+
+/* Media Queries */
+
+$mq-mobile-portrait		: 320px !default;
+$mq-mobile-landscape	: 480px !default;
+$mq-tablet-portrait		: 768px !default;
+$mq-tablet-landscape	: 1024px !default;
+$mq-desktop	: 1382px !default;

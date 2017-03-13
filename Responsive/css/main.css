@@ -1,0 +1,475 @@
+/* 
+	Resposive Test Project
+	Author: Jericho Albao
+	Version: 0.0.1
+	
+*/
+/* BASE */
+/* Font Colors */
+/* Background Colors */
+/* Media Queries */
+h1, h2, h3, h4, h5 {
+  margin-top: 0px;
+}
+
+.page-header {
+  margin-top: 30px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.7em;
+  color: #666666;
+}
+
+a {
+  color: #353d3f;
+}
+
+ul, li {
+  list-style: none;
+}
+
+/* MODULES */
+.btn {
+  background: #1bafdf;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  border: medium none;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle {
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-toggle {
+    float: left;
+  }
+}
+
+/* Form */
+.replyfield {
+  position: relative;
+}
+
+.replyfield textarea {
+  border: medium none;
+  font-size: 12px;
+  height: 50px;
+  padding: 12px 164px;
+  text-align: right;
+  width: 100%;
+  resize: none;
+}
+
+.replyfield .btn {
+  bottom: 11px;
+  position: absolute;
+  right: 62px;
+}
+
+.formdv {
+  padding: 50px 0px;
+  color: #1bafdf;
+}
+
+.formdv .formbox2 {
+  float: right;
+  width: 300px;
+}
+
+.formdv .formbox3 {
+  float: left;
+  width: 300px;
+}
+
+.formdv .formbox3 .btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.formdv .form-left {
+  display: inline-block;
+}
+
+.formdv .form-right {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+  .formdv .form-left, .formdv .form-right {
+    text-align: center;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .formdv .formbox2, .formdv .formbox3 {
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+/* Sections */
+.chatbox {
+  height: 550px;
+  background: #ffffff;
+  margin-top: 60px;
+}
+
+.chatbox .chatboxcontent {
+  height: 100%;
+}
+
+.chatbox .chatboxcontent .chatsidebar {
+  height: 100%;
+  background: #fafafa;
+  width: 30%;
+  float: right;
+  border: 1px solid #ececec;
+  box-shadow: -1px 0 3px #e2ebed;
+  position: relative;
+}
+
+.chatbox .chatboxcontent .chatsidebar .row {
+  margin: 0;
+}
+
+.chatbox .chatboxcontent .chatsidebar .profilephoto {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 100px;
+  height: 60px;
+  overflow: hidden;
+  width: 60px;
+  border: 1px solid #ececec;
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.chatbox .chatboxcontent .chatsidebar .profilephoto img {
+  margin-left: 7px;
+  margin-top: 13px;
+}
+
+.chatbox .chatboxcontent .chatsidebar .profile {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 20px;
+  max-width: 70%;
+}
+
+.chatbox .chatboxcontent .chatsidebar .profile h4 {
+  color: #1bafdf;
+}
+
+.chatbox .chatboxcontent .chatsidebar .profile .profile-desc {
+  display: block;
+  font-weight: lighter;
+  line-height: 14px;
+  width: 100%;
+}
+
+.chatbox .chatboxcontent .chatsidebar .profile .profile-msg {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+.chatbox .chatboxcontent .chatsidebar .progressdv {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  background: #c1e9f4;
+  height: 15px;
+  margin-top: 20px;
+}
+
+.chatbox .chatboxcontent .chatsidebar .progressdv .progress2 {
+  background: #1bafdf;
+  color: #fafafa;
+  font-size: 10px;
+  font-weight: lighter;
+  line-height: 16px;
+  max-height: 15px;
+  width: 12%;
+  text-align: center;
+}
+
+.chatbox .chatboxcontent .chatsidebar .locationdv {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.chatbox .chatboxcontent .chatsidebar .locationdv .fa {
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.chatbox .chatboxcontent .chatsidebar .locationdv span {
+  vertical-align: top;
+}
+
+.chatbox .chatboxcontent .chatsidebar .strengthdv {
+  border-top: 1px solid #ececec;
+  bottom: 0;
+  height: 30%;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+  position: absolute;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .chatbox .chatboxcontent .chatsidebar {
+    display: none;
+  }
+}
+
+.chatbox .chatboxcontent .chatsection {
+  padding-top: 20px;
+  width: 70%;
+  max-height: 550px;
+  overflow: scroll;
+}
+
+.chatbox .chatboxcontent .chatsection .row {
+  margin: 0px;
+}
+
+.chatbox .chatboxcontent .chatsection .user {
+  margin-top: 10px;
+}
+
+.chatbox .chatboxcontent .chatsection .chatreply {
+  max-width: 60%;
+  margin: 0 0 20px;
+  display: block;
+}
+
+.chatbox .chatboxcontent .chatsection .chatreply .replypic {
+  background: #353d3f none repeat scroll 0 0;
+  border-radius: 100px;
+  height: 52px;
+  overflow: hidden;
+  width: 52px;
+  display: inline-block;
+}
+
+.chatbox .chatboxcontent .chatsection .chatreply .replypic img {
+  margin-left: 9px;
+  margin-top: 9px;
+}
+
+.chatbox .chatboxcontent .chatsection .chatreply .replybox {
+  background: #f7fbfc;
+  border: 1px solid #becdce;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 10px;
+  max-width: 80%;
+  padding: 15px;
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 768px) {
+  .chatbox .chatboxcontent .chatsection .chatreply {
+    max-width: 100%;
+  }
+}
+
+.chatbox .chatboxcontent .chatsection .usermsg {
+  max-width: 60%;
+  float: right;
+  display: block;
+  margin: 0 0 20px;
+}
+
+.chatbox .chatboxcontent .chatsection .usermsg .userpic {
+  background: #1bafdf;
+  border-radius: 100px;
+  height: 52px;
+  overflow: hidden;
+  width: 52px;
+  display: inline-block;
+  float: right;
+}
+
+.chatbox .chatboxcontent .chatsection .usermsg .userpic img {
+  margin-left: 12px;
+  margin-top: 9px;
+}
+
+.chatbox .chatboxcontent .chatsection .usermsg .userpic2 {
+  background: #8cd7ee;
+  border-radius: 100px;
+  height: 52px;
+  overflow: hidden;
+  width: 52px;
+  display: inline-block;
+  float: right;
+}
+
+.chatbox .chatboxcontent .chatsection .usermsg .userpic2 img {
+  margin-left: 12px;
+  margin-top: 9px;
+}
+
+.chatbox .chatboxcontent .chatsection .usermsg .userbox {
+  background: #1bafdf;
+  border: 1px solid #1bafdf;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 10px;
+  max-width: 80%;
+  padding: 15px;
+  vertical-align: top;
+  color: #ffffff;
+  float: right;
+  margin-right: 10px;
+}
+
+.chatbox .chatboxcontent .chatsection .usermsg .userbox2 {
+  background: #fbfdfc;
+  border: 1px solid #8cd7ee;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 10px;
+  max-width: 80%;
+  padding: 15px;
+  vertical-align: top;
+  color: #8cd7ee;
+  float: right;
+  margin-right: 10px;
+  min-width: 200px;
+}
+
+.chatbox .chatboxcontent .chatsection .usermsg .box2 {
+  margin-right: 62px !important;
+  min-width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .chatbox .chatboxcontent .chatsection .usermsg {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .chatbox .chatboxcontent .chatsection {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .chatbox {
+    height: 560px;
+  }
+}
+
+.midcontent {
+  background: #1bafdf;
+  color: #ffffff;
+  padding: 70px 0;
+}
+
+.midcontent .midcontentsection {
+  margin: auto;
+  width: 90%;
+}
+
+.midcontent .midcontentsection .block {
+  display: inline-block;
+  margin: 20px 0px;
+}
+
+.midcontent p {
+  font-weight: 200;
+}
+
+/* LAYOUTS */
+footer {
+  background: #3a3a3a;
+  padding: 50px 0px;
+}
+
+footer ul {
+  padding-left: 0px;
+}
+
+footer .row {
+  width: 90%;
+  margin: auto;
+}
+
+footer h3 {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+footer img {
+  margin-bottom: 20px;
+}
+
+footer .btn {
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .mobx {
+    display: none;
+  }
+}
+
+.navbar {
+  margin: auto;
+  min-height: 60px;
+  background: #fefefe;
+  border-color: #fafafa;
+}
+
+.navbar a {
+  color: #9c9c9c;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.navbar li a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar li a:hover {
+  color: #1bafdf !important;
+}
+
+.navbar .btn {
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+.navbar .logo-mob {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar .navbar-brand {
+    display: none;
+  }
+  .navbar .logo-mob {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
